@@ -1,0 +1,15 @@
+{
+  "name": "interview-mitraha",
+  "version": "1.0.1",
+  "private": true,
+  "description": "A local-first Gemma interview practice companion",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test --test-reporter=spec tests/server.test.js",
+    "check": "node --check server.js && node --check app.js && node --test --test-reporter=spec tests/server.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

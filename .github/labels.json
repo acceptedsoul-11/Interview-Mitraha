@@ -1,0 +1,17 @@
+[
+  {
+    "name": "hacktoberfest-2026",
+    "color": "C586F7",
+    "description": "Hacktoberfest 2026 project and contribution"
+  },
+  {
+    "name": "good first issue",
+    "color": "7057FF",
+    "description": "A friendly place for a first contribution"
+  },
+  {
+    "name": "help wanted",
+    "color": "008672",
+    "description": "Extra help is welcome on this issue"
+  }
+]

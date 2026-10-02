@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100d19">
+  <title>Interview मित्रः — your next big thing starts here</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div><div class="grain"></div>
+  <div class="app-shell">
+    <aside class="rail">
+      <a class="brand" href="#" aria-label="Interview Mitraha home"><span class="brand-mark"><span>मि</span><i></i></span><span class="brand-name">MITRAHA</span></a>
+      <div class="rail-rule"></div>
+      <button class="rail-action active" aria-label="Practice"><span>✳</span></button>
+      <button class="rail-action" id="historyButton" aria-label="Session notes"><span>▤</span></button>
+      <div class="rail-bottom"><span class="avatar">✦</span></div>
+    </aside>
+    <main class="main-area">
+      <header class="topbar"><div class="breadcrumb"><span class="live-dot"></span> YOUR PRACTICE UNIVERSE <span class="crumb-dot">/</span> <span id="connectionLabel">Connecting to Gemma…</span></div><button class="quiet-button" id="privacyButton"><span class="lock-icon">✧</span> <span>LOCAL AI</span></button></header>
+      <div class="content-grid">
+        <section class="practice-column">
+          <div class="hero-row">
+            <div class="intro"><div class="eyebrow"><span class="sparkle">✳</span> YOUR HYPE PERSON, WITH A GAME PLAN</div><h1>Your next big<br>thing starts <em>here.</em></h1><p class="intro-copy">Low stakes. Big confidence. Meet yourself a few questions ahead of the room.</p></div>
+            <div class="mascot-scene" aria-label="Mitraha mascot, your friendly practice companion"><div class="mascot-orbit orbit-a"></div><div class="mascot-orbit orbit-b"></div><span class="float-star star-a">✦</span><span class="float-star star-b">✧</span><span class="mascot-glow"></span><div class="mascot"><span class="mascot-blush blush-left"></span><span class="mascot-blush blush-right"></span><span class="mascot-eye eye-left"></span><span class="mascot-eye eye-right"></span><span class="mascot-smile"></span><span class="mascot-spark">✦</span></div><div class="mascot-caption">MITRAHA IS HERE <span>✳</span></div></div>
+          </div>
+          <section class="setup-card" id="setupCard">
+            <div class="setup-top"><div><div class="card-kicker"><span class="kicker-dot"></span> FIRST, SET YOUR SCENE</div><h2>What’s the next big thing?</h2></div><span class="step-count">01 <span>— 02</span></span></div>
+            <label class="field-label" for="roleInput">ROLE, INTERNSHIP OR OPPORTUNITY</label>
+            <input id="roleInput" class="role-input" placeholder="e.g. Product designer at a climate startup" maxlength="90">
+            <div class="setup-bottom"><span class="helper"><span class="tiny-shield">✧</span> No scores. No pressure. Just practice.</span><button class="primary-button" id="startButton">Let’s do this <span>↗</span></button></div>
+          </section>
+          <section class="chat-card hidden" id="chatCard" aria-live="polite">
+            <div class="chat-heading"><div><div class="card-kicker"><span class="kicker-dot"></span> YOUR PRACTICE SESSION</div><h2 id="sessionTitle">Let’s begin</h2></div><button class="text-button" id="newSessionButton">New session <span>↺</span></button></div>
+            <div class="messages" id="messages"></div>
+            <form id="replyForm" class="reply-form"><textarea id="replyInput" rows="2" maxlength="1600" placeholder="Type your answer — or say it out loud…"></textarea><div class="composer-footer"><div class="composer-hint"><label for="languageSelect">SPEAK IN</label><select id="languageSelect" aria-label="Speech recognition language"><option value="en-IN">English</option><option value="hi-IN">हिन्दी</option><option value="en-IN">Hinglish</option></select><span class="hint-separator">·</span><span>no timer</span></div><div class="composer-actions"><button class="mic-button" type="button" id="micButton" aria-label="Speak your answer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 14a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v5a3 3 0 0 0 3 3Z"/><path d="M19 11a7 7 0 0 1-14 0M12 18v4m-4 0h8"/></svg><span class="mic-ripple"></span></button><button class="send-button" type="submit" aria-label="Send answer">↑</button></div></div></form>
+            <div class="session-note"><span>✳</span> Your transcript appears here so you can check it before sending. Speech recognition follows your browser’s settings; if on-device recognition isn’t available, your browser may use its speech service.</div>
+          </section>
+          <footer class="page-footer"><span>BUILT FOR THE PERSON YOU’RE ROOTING FOR <b>·</b> POWERED BY LOCAL GEMMA</span><span>✳</span></footer>
+        </section>
+        <aside class="side-column">
+          <div class="note-card"><div class="note-topline"><span>MITRAHA’S NOTE TO YOU</span><span>✧</span></div><div class="note-scribble">“</div><p>You don’t need to become someone else. Just let them meet <em>you.</em></p><div class="note-sign">— your pal, Mitraha <span>♡</span></div><div class="note-sticker">YOU<br>GOT<br>THIS!</div></div>
+          <div class="side-section"><div class="side-title">YOUR MINI GAME PLAN <span>01 — 03</span></div><div class="plan-item current"><span class="plan-number">01</span><div><strong>Find your opening</strong><small>Warm up into your story</small></div><span class="plan-status">NOW</span></div><div class="plan-item"><span class="plan-number">02</span><div><strong>Drop a real example</strong><small>Make your impact memorable</small></div></div><div class="plan-item"><span class="plan-number">03</span><div><strong>Leave them curious</strong><small>Close with a great question</small></div></div></div>
+          <div class="local-card"><div class="local-icon">⌂</div><div><strong>Local AI, with a voice note.</strong><p>Gemma stays on your computer. Mic transcription follows your browser’s speech privacy settings.</p></div><span class="local-dot" id="localDot"></span></div>
+          <div class="tip-card"><span class="tip-icon">✳</span><div><strong>Friendly reminder</strong><p>This is a practice pal, not a scorecard. Take the bits that feel like you.</p></div></div>
+        </aside>
+      </div>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

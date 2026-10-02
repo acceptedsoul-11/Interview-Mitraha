@@ -1,0 +1,16 @@
+# Local model/server state and editor/OS files
+.interview-mitra-server.json
+.interview-mitra-server.lock
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Dependencies are not needed at runtime; ignore if installed for development.
+node_modules/
+
+# Local environment files
+.env
+.env.*
+!.env.example

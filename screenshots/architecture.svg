@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Interview Mitraha local architecture</title>
+  <desc id="desc">The browser talks to a loopback-only Node.js server, which sends the interview conversation to the Gemma model through Ollama on the same computer.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#130f20"/><stop offset="1" stop-color="#201334"/></linearGradient>
+    <linearGradient id="accent" x2="1"><stop stop-color="#ce7bff"/><stop offset="1" stop-color="#ff77c8"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+  <circle cx="72" cy="62" r="5" fill="#a6ffe0" filter="url(#glow)"/>
+  <text x="96" y="70" fill="#b7acc9" font-family="Segoe UI, sans-serif" font-size="16" letter-spacing="4">INTERVIEW MITRAHA · PRIVATE BY DESIGN</text>
+  <text x="72" y="142" fill="#fff8ff" font-family="Segoe UI, sans-serif" font-size="36" font-weight="700">One computer. One practice conversation.</text>
+  <g font-family="Segoe UI, sans-serif">
+    <rect x="64" y="208" width="290" height="220" rx="22" fill="#21192f" stroke="#674278" stroke-width="2"/>
+    <text x="96" y="258" fill="#efa0ff" font-size="14" letter-spacing="2">01 · PRACTICE</text>
+    <text x="96" y="308" fill="#fff8ff" font-size="26" font-weight="700">Browser UI</text>
+    <text x="96" y="346" fill="#d1c6db" font-size="17">HTML · CSS · JavaScript</text>
+    <text x="96" y="380" fill="#d1c6db" font-size="16">Type or review a voice transcript</text>
+    <rect x="455" y="208" width="290" height="220" rx="22" fill="#21192f" stroke="#755392" stroke-width="2"/>
+    <text x="487" y="258" fill="#efa0ff" font-size="14" letter-spacing="2">02 · VALIDATE</text>
+    <text x="487" y="308" fill="#fff8ff" font-size="26" font-weight="700">Node.js server</text>
+    <text x="487" y="346" fill="#d1c6db" font-size="17">127.0.0.1 only</text>
+    <text x="487" y="380" fill="#d1c6db" font-size="16">Bounded, checked local requests</text>
+    <rect x="846" y="208" width="290" height="220" rx="22" fill="#21192f" stroke="#957142" stroke-width="2"/>
+    <text x="878" y="258" fill="#e9ff91" font-size="14" letter-spacing="2">03 · RESPOND</text>
+    <text x="878" y="308" fill="#fff8ff" font-size="26" font-weight="700">Ollama + Gemma</text>
+    <text x="878" y="346" fill="#d1c6db" font-size="17">gemma3:4b · local weights</text>
+    <text x="878" y="380" fill="#d1c6db" font-size="16">Prompt and follow-up generated locally</text>
+  </g>
+  <g stroke="url(#accent)" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M365 318h78"/><path d="M755 318h78"/>
+  </g>
+  <g fill="#ff9adb"><path d="m435 309 12 9-12 9"/><path d="m825 309 12 9-12 9"/></g>
+  <text x="64" y="480" fill="#a99bb6" font-family="Segoe UI, sans-serif" font-size="15">Model weights download once. Typed practice can then run without an internet connection.</text>
+</svg>
